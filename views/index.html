@@ -1,34 +1,51 @@
 <!DOCTYPE html>
 
 <html>
-   <head>
-      <title>File Metadata</title>
-      <link rel="shortcut icon" href="https://cdn.freecodecamp.org/universal/favicons/favicon-32x32.png" type="image/x-icon"/>
-      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
-      <link href="/public/style.css" rel="stylesheet" type="text/css">
-   </head>
+  <head>
+    <title>File Metadata</title>
+    <meta name="description" content="File Metadata Microservice challenge" />
+    <meta
+      name="keywords"
+      content="HTML, CSS, JavaScript, Node, Express, Multer"
+    />
+    <meta name="author" content="Davor Jovanovic" />
+    <link
+      rel="shortcut icon"
+      href="https://cdn.freecodecamp.org/universal/favicons/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="/public/style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-   <body>
-      <div class="container">
-        <h2>API Project: File Metadata Microservice</h2>
+  <body>
+    <div class="container">
+      <h2>API Project: File Metadata Microservice</h2>
 
-        <h3>Usage:</h3>
-        <p>
-          Please Upload a File ...
-        </p>
-        <div class="view">
-          <h4 id="output"></h4>
-          <form enctype="multipart/form-data" method="POST" action="/api/fileanalyse">
-            <input id="inputfield" type="file" name="upfile">
-            <input id="button" type="submit" value="Upload">
-          </form>
-        </div>
+      <h3>Usage:</h3>
+      <p>Please Upload a File ...</p>
+      <div class="view">
+        <h4 id="output"></h4>
+        <form
+          enctype="multipart/form-data"
+          method="POST"
+          action="/api/fileanalyse"
+        >
+          <input id="inputfield" type="file" name="upfile" />
+          <input id="button" type="submit" value="Upload" />
+        </form>
       </div>
-      <div class="footer">
-        <p>
-          by 
-          <a href="http://www.freecodecamp.com">freeCodeCamp</a>
-        </p>
-      </div>
-   </body>
+    </div>
+    <div class="footer">
+      <p>
+        By
+        <a href="https://www.linkedin.com/in/davor-jovanovi%C4%87/">DavorJ</a>
+        For <a href="https://www.freecodecamp.org/">FCC Challenges</a>
+      </p>
+    </div>
+  </body>
 </html>
